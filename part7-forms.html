@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & input tags In Html</title>
+</head>
+<body>
+    <form action="">
+        <!-- text box / input text -->
+        <label for="fullname"> full name </label> <br>
+        <input type="text" name="fullname" id="fullname" placeholder="Enter your full name"> <br>
+
+        <!-- Email -->
+        <label for="email">Email</label> <br>
+        <input type="email" name="email" id="email"> <br>
+        
+        <!-- text area -->
+        <label for="message"> Message</label> <br>
+        <textarea name="message" id="message" placeholder="Enter Your message" cols="50" rows="10"></textarea> <br>
+        
+        <!-- dropdown -->
+        <label for="gender">Gender</label> <br>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female" selected>Female</option>
+        </select> <br>
+        <!-- number -->
+        <label for="age">age</label> <br>
+        <input type="number" name="age" id="age"> <br>
+
+        <!-- Calendar -->
+        <label for="dob">Date of Birth</label> <br>
+        <input type="date" name="dob" id="dob"> <br>
+
+        <!-- radio button -->
+        <label for="course">course</label> <br>
+        <input type="radio" name="course" id="course" value="html"> HTML
+        <input type="radio" name="course" id="course" value="javascript"> JAVASCRIPT
+        <input type="radio" name="course" id="course" value="Nodejs"> NODE JS
+        <br>    
+
+        <!-- Checkbox -->
+        <label for="hobbies"> Your hobbies</label> <br>
+        <input type="checkbox" name="hobbies" id="hobbies" value="singing"> Singing
+        <input type="checkbox" name="hobbies" id="hobbies" value="dancing"> Dancing
+        <input type="checkbox" name="hobbies" id="hobbies" value="beat boxing"> Beat Boxing <br>
+        <!-- submit -->
+        <input type="submit" value="submit" id="submit" name="submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
