@@ -1,0 +1,20 @@
+/* part 10 Fun with Colors  */
+
+h1{
+  /* Color Name */
+  /* color: blue;  */
+  /* rgb Read Green Blue */
+  /* color: rgb(0, 0, 255);  */
+  /* hsl Hue saturation lightness */
+  color: hsl(240, 100%, 50%); 
+/* hex code */
+  color: #0000ff; 
+}
+
+body{
+  background-color: tomato;
+}
+
+p{
+  color: #ccc;
+}
