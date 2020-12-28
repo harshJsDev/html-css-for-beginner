@@ -1,0 +1,19 @@
+
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: #233011;
+}
+
+.blue{
+    background-color: navy;
+    color: #fff;
+}
+
+.btn{
+    background-color: #4026d3;
+    color: #fff;
+    width: 80px;
+    height: 50px;
+}
