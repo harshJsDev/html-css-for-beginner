@@ -1,0 +1,14 @@
+.first-box{
+  background-color: #13213C;
+  color: #fff;
+  height: 200px;
+  width: 20%;
+  display: block;
+}
+.second-box{
+  background-color: #FCA311;;
+  color: #000;
+  height: 200px;
+  width: 20%;
+  display: block;
+}
