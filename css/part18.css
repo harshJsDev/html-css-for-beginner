@@ -1,0 +1,22 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #FFF;
+    
+}
+#sqr{
+    
+    /* background-color: #; */
+    height: 200px;
+    width: 200px;
+}
+/* DON'T TOUCH THE ABOVE CODE */
+
+.yellow-square{
+    background-color: #13213C ;
+}
+div{
+    background-color: #FCA311  !important;
+}

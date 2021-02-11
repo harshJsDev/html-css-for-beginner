@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* vertical-align: middle; */
+    min-height: 100vh;
+    background-color: #000;
+}
+#sqr{
+    
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+    
+}
+/* DON'T TOUCH THE ABOVE CODE */
+
+body{
+    
+}
