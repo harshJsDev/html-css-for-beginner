@@ -1,0 +1,12 @@
+.rectangle{
+    background-color: tomato;
+    height: 100px;
+    width: 400px ;
+    padding: 10px;
+}
+.blue{
+    background-color: blue;
+    color: white;
+    margin-top: 30px;
+    border: 5px solid black;
+}
