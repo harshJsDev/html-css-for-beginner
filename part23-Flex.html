@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What is flex box</title>
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      body {
+        background-color: #fca311;
+      }
+      #container {
+        display: flex;
+        height: 100vh;
+        flex-direction: row;
+        
+        
+      }
+      .box {
+        background-color: #13213c;
+        height: 100px;
+        width: 300px;
+        color: #fff;
+        font-size: 2.5rem;
+        border: 2px solid #fca311;
+        flex-shrink: 1;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="box" style="">1</div>
+      <div class="box" style="">2</div>
+      <div class="box" style="flex-shrink: 2;">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+    </div>
+  </body>
+</html>
